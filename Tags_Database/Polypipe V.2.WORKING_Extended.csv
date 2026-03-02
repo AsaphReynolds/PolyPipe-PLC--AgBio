@@ -1,0 +1,1309 @@
+## System ID,Tag Name,Retentive Mode,Initial Value,MODBUS Start Address,MODBUS End Address,Number of Characters,Number of Rows,Number of Columns,Wiring Label,Comment,Forceable,Init Forced,Init Force Value,Remote Access,I/O Address,Data Type,Structure Type,BOW Details
+## 3.0
+SBR-001008,"1 Minute Bit",false,"0",,,,,,,"On for 30 seconds and Off for 30 seconds",,,,false,,"SBR",,false
+SBR-001009,"2 Second Bit",false,"0",,,,,,,"On for 1 second and Off for 1 second",,,,false,,"SBR",,false
+SBR-001002,"Always Off Bit",false,"0",,,,,,,"always off",,,,false,,"SBR",,false
+C-000088,"Always On Bit",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SBR-001017,"Array out of range error",false,"0",,,,,,,"On if an array index is outside the range of the array",,,,false,,"SBR",,false
+SWR-001514,"Array range error rung location",false,"0",,,,,,,"Rung Number in which ""Array out of range error"" occurred",,,,false,,"SWR",,false
+SWR-001513,"Array range error task location",false,"0",,,,,,,"Task Number in which ""Array out of range error"" occurred",,,,false,,"SWR",,false
+SWR-001506,"Avg Logic Scan Time [x100=usec]",false,"0",,,,,,,"average logic scan time",,,,false,,"SWR",,false
+SWR-001503,"Avg Scan Interval [x100=usec]",false,"0",,,,,,,"average overall scan time",,,,false,,"SWR",,false
+SBR-001006,"Battery Disabled",false,"0",,,,,,,"On if the ""CPU Battery Alarm"" is disabled in H/W Configuration",,,,false,,"SBR",,false
+SBR-001005,"Battery Low Bit",false,"0",,,,,,,"On if the battery is weak (""CPU Battery Alarm"" in H/W Configuration)",,,,false,,"SBR",,false
+SWR-001518,"Battery Voltage",false,"0",,,,,,,"battery voltage in 10ths of a volt",,,,false,,"SWR",,false
+SSTR-000041,"CPU Event Log String 01",false,,,,50,,,,"most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000042,"CPU Event Log String 02",false,,,,50,,,,"2nd most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000043,"CPU Event Log String 03",false,,,,50,,,,"3rd most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000044,"CPU Event Log String 04",false,,,,50,,,,"4th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000045,"CPU Event Log String 05",false,,,,50,,,,"5th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000046,"CPU Event Log String 06",false,,,,50,,,,"6th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000047,"CPU Event Log String 07",false,,,,50,,,,"7th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000048,"CPU Event Log String 08",false,,,,50,,,,"8th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000049,"CPU Event Log String 09",false,,,,50,,,,"9th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000050,"CPU Event Log String 10",false,,,,50,,,,"10th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000051,"CPU Event Log String 11",false,,,,50,,,,"11th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000052,"CPU Event Log String 12",false,,,,50,,,,"12th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000053,"CPU Event Log String 13",false,,,,50,,,,"13th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000054,"CPU Event Log String 14",false,,,,50,,,,"14th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000055,"CPU Event Log String 15",false,,,,50,,,,"15th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000056,"CPU Event Log String 16",false,,,,50,,,,"16th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000057,"CPU Event Log String 17",false,,,,50,,,,"17th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000058,"CPU Event Log String 18",false,,,,50,,,,"18th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000059,"CPU Event Log String 19",false,,,,50,,,,"19th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000060,"CPU Event Log String 20",false,,,,50,,,,"20th most recent CPU event log message",,,,false,,"SSTR",,false
+SSTR-000101,"CPU Model Name",false,,,,50,,,,"CPU Model (ex: ""P3-550"")",,,,false,,"SSTR",,false
+SSTR-000102,"CPU Program File Name",false,,,,50,,,,"CPU program file name",,,,false,,"SSTR",,false
+SBR-001001,"CPU in Run",false,"0",,,,,,,"On during Run or Debug mode",,,,false,,"SBR",,false
+S32-000122,"CV",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SWR-001523,"Clock Day",false,"0",,,,,,,"current Real Time Clock Calendar Day",,,,false,,"SWR",,false
+SWRW-001754,"Clock Day Set",false,"0",,,,,,,"new Real Time Clock Day (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+SWR-001522,"Clock Day of Week",false,"0",,,,,,,"current Real Time Clock Day of the week (1=Mon ...7=Sun)",,,,false,,"SWR",,false
+SWR-001521,"Clock Hours",false,"0",,,,,,,"current Real Time Clock Hours",,,,false,,"SWR",,false
+SWRW-001753,"Clock Hours Set",false,"0",,,,,,,"new Real Time Clock Hours (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001520,"Clock Minutes",false,"0",,,,,,,"current Real Time Clock Minutes",,,,false,,"SWR",,false
+SWRW-001752,"Clock Minutes Set",false,"0",,,,,,,"new Real Time Clock Minutes (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001524,"Clock Month",false,"0",,,,,,,"current Real Time Clock Calendar Month",,,,false,,"SWR",,false
+SWRW-001755,"Clock Month Set",false,"0",,,,,,,"new Real Time Clock Month (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+SWR-001519,"Clock Seconds",false,"0",,,,,,,"current Real Time Clock Seconds",,,,false,,"SWR",,false
+SWRW-001751,"Clock Seconds Set",false,"0",,,,,,,"new Real Time Clock Seconds (set all 3 time values then set ""Initiate_New_Time"" on)",,,,false,,"SWRW",,false
+SWR-001525,"Clock Year",false,"0",,,,,,,"current Real Time Clock Calendar Year",,,,false,,"SWR",,false
+SWRW-001756,"Clock Year Set",false,"0",,,,,,,"new Real Time Clock Year (set all 3 date values then set ""Initiate_New_Date"" on)",,,,false,,"SWRW",,false
+C-000056,"Complete",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SBR-001012,"Critical Error Bit",false,"0",,,,,,,"On when a critical error is active",,,,false,,"SBR",,false
+SWR-000001,"Critical Error Log 01",false,"0",,,,,,,"most recent critical error",,,,false,,"SWR",,false
+SWR-000002,"Critical Error Log 02",false,"0",,,,,,,"2nd most recent critical error",,,,false,,"SWR",,false
+SWR-000003,"Critical Error Log 03",false,"0",,,,,,,"3rd most recent critical error",,,,false,,"SWR",,false
+SWR-000004,"Critical Error Log 04",false,"0",,,,,,,"4th most recent critical error",,,,false,,"SWR",,false
+SWR-000005,"Critical Error Log 05",false,"0",,,,,,,"5th most recent critical error",,,,false,,"SWR",,false
+SWR-000006,"Critical Error Log 06",false,"0",,,,,,,"6th most recent critical error",,,,false,,"SWR",,false
+SWR-000007,"Critical Error Log 07",false,"0",,,,,,,"7th most recent critical error",,,,false,,"SWR",,false
+SWR-000008,"Critical Error Log 08",false,"0",,,,,,,"8th most recent critical error",,,,false,,"SWR",,false
+SWR-000009,"Critical Error Log 09",false,"0",,,,,,,"9th most recent critical error",,,,false,,"SWR",,false
+SWR-000010,"Critical Error Log 10",false,"0",,,,,,,"10th most recent critical error",,,,false,,"SWR",,false
+SWR-000011,"Critical Error Log 11",false,"0",,,,,,,"11th most recent critical error",,,,false,,"SWR",,false
+SWR-000012,"Critical Error Log 12",false,"0",,,,,,,"12th most recent critical error",,,,false,,"SWR",,false
+SWR-000013,"Critical Error Log 13",false,"0",,,,,,,"13th most recent critical error",,,,false,,"SWR",,false
+SWR-000014,"Critical Error Log 14",false,"0",,,,,,,"14th most recent critical error",,,,false,,"SWR",,false
+SWR-000015,"Critical Error Log 15",false,"0",,,,,,,"15th most recent critical error",,,,false,,"SWR",,false
+SWR-000016,"Critical Error Log 16",false,"0",,,,,,,"16th most recent critical error",,,,false,,"SWR",,false
+SWR-000017,"Critical Error Log 17",false,"0",,,,,,,"17th most recent critical error",,,,false,,"SWR",,false
+SWR-000018,"Critical Error Log 18",false,"0",,,,,,,"18th most recent critical error",,,,false,,"SWR",,false
+SWR-000019,"Critical Error Log 19",false,"0",,,,,,,"19th most recent critical error",,,,false,,"SWR",,false
+SWR-000020,"Critical Error Log 20",false,"0",,,,,,,"20th most recent critical error",,,,false,,"SWR",,false
+SSTR-000001,"Critical Error Log String 01",false,,,,50,,,,"most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000002,"Critical Error Log String 02",false,,,,50,,,,"2nd most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000003,"Critical Error Log String 03",false,,,,50,,,,"3rd most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000004,"Critical Error Log String 04",false,,,,50,,,,"4th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000005,"Critical Error Log String 05",false,,,,50,,,,"5th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000006,"Critical Error Log String 06",false,,,,50,,,,"6th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000007,"Critical Error Log String 07",false,,,,50,,,,"7th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000008,"Critical Error Log String 08",false,,,,50,,,,"8th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000009,"Critical Error Log String 09",false,,,,50,,,,"9th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000010,"Critical Error Log String 10",false,,,,50,,,,"10th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000011,"Critical Error Log String 11",false,,,,50,,,,"11th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000012,"Critical Error Log String 12",false,,,,50,,,,"12th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000013,"Critical Error Log String 13",false,,,,50,,,,"13th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000014,"Critical Error Log String 14",false,,,,50,,,,"14th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000015,"Critical Error Log String 15",false,,,,50,,,,"15th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000016,"Critical Error Log String 16",false,,,,50,,,,"16th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000017,"Critical Error Log String 17",false,,,,50,,,,"17th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000018,"Critical Error Log String 18",false,,,,50,,,,"18th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000019,"Critical Error Log String 19",false,,,,50,,,,"19th most recent critical error message",,,,false,,"SSTR",,false
+SSTR-000020,"Critical Error Log String 20",false,,,,50,,,,"20th most recent critical error message",,,,false,,"SSTR",,false
+SWR-001510,"Current Critical Error",false,"0",,,,,,,"current critical error number",,,,false,,"SWR",,false
+SWR-001516,"Current I/O Config Error Base",false,"0",,,,,,,"I/O base in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001515,"Current I/O Config Error Group",false,"0",,,,,,,"I/O group in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001517,"Current I/O Config Error Slot",false,"0",,,,,,,"I/O slot in which ""I/O Configuration Error"" occurred",,,,false,,"SWR",,false
+SWR-001511,"Current Non-critical Error",false,"0",,,,,,,"current noncritical error number",,,,false,,"SWR",,false
+S32-000121,"CurrentCutCount",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000124,"CurrentLoopCount",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+C-000082,"CutCycleComplete",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SSTRUC-000003,"Cutting Motor",false,,,,,,,,"System Structure for Velocity Move",,,,false,,"SSTRUC","VMOV",false
+S32-000075,"Cutting Motor Degrees",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+C-000048,"Cutting Motor Off",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+C-000043,"Cutting Motor On",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+C-000042,"Cutting Motor.Complete",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+C-000041,"Cutting Motor.InProgress",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+F32-000022,"Cutting Motor.Jerk",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+F32-000023,"Cutting Motor.RampRate",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","VMOV",false
+F32-000024,"Cutting Motor.RegCapture",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000037,"Cutting Motor.RegCount",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000025,"Cutting Motor.RegDecel",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000038,"Cutting Motor.RegDelay",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000026,"Cutting Motor.RegPulseTime",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000042,"Cutting Motor.Status",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000027,"Cutting Motor.Velocity",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","VMOV",false
+C-000087,"CycleDie",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000108,"DN",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+DO-0.1.1.1,"DO-0.1.1.1",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.1.1","DO",,false
+DO-0.1.1.2,"DO-0.1.1.2",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.1.2","DO",,false
+DO-0.1.1.3,"DO-0.1.1.3",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.1.3","DO",,false
+DO-0.1.1.4,"DO-0.1.1.4",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.1.4","DO",,false
+DO-0.1.1.5,"DO-0.1.1.5",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.1.5","DO",,false
+DO-0.1.1.6,"DO-0.1.1.6",false,"0",,,,,,,,false,false,"0",false,"DO-0.1.1.6","DO",,false
+F32-000067,"Desired Die Position MM",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32",,false
+F32-000114,"Diameter_IN",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000115,"Diameter_MM",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+S32-000118,"Die Edge Position Analog",false,"0",,,,,,,,false,false,"0",false,,"AIS32",,false
+F32-000074,"Die Index Position",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000078,"Die Index Ramp Rate",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000073,"Die Index Target",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32",,false
+F32-000077,"Die Index Velocity",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+SSTRUC-000009,"Die Position",false,,,,,,,,"System Structure for Simple Move",,,,false,,"SSTRUC","SMOV",false
+F32-000071,"Die Position Capture",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000078,"Die Position Home",false,"0",,,,,,,,true,false,"0",false,,"DI",,false
+C-000063,"Die Position Move Enable",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+C-000072,"Die Position Move Reset",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+F32-000072,"Die Position Target",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000076,"Die Position Zero",false,"0",,,,,,,,true,false,"0",false,,"DI",,false
+F32-000061,"Die Position.Accel",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+C-000062,"Die Position.Complete",false,"0",,,,,,,,true,false,"0",false,,"C","SMOV",false
+F32-000062,"Die Position.Decel",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+C-000061,"Die Position.InProgress",false,"0",,,,,,,,false,false,"0",false,,"C","SMOV",false
+F32-000063,"Die Position.Jerk",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","SMOV",false
+S32-000106,"Die Position.Preset1Target",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000107,"Die Position.Preset2Target",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000105,"Die Position.PresetPulseTime",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000102,"Die Position.RegCapture",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000099,"Die Position.RegCount",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000101,"Die Position.RegDecel",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000100,"Die Position.RegDelay",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000103,"Die Position.RegPulseTime",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000108,"Die Position.Status",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+F32-000064,"Die Position.Target",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+F32-000065,"Die Position.Velocity",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+C-000070,"Die Run",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+F32-000079,"Die Table MM",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+AIS32-0.1.2.2,"Die Table Position Analog",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.2.2","AIS32",,false
+F32-000080,"Die Table Position MM",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000070,"DieAccelDecelRate",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+S32-000116,"DieOutOfPosition",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+AIS32-0.1.2.3,"Ditcher Position Analog",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.2.3","AIS32",,false
+C-000093,"DoneBit",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000077,"Drivetrain Enable",false,"0",,,,,,,,true,false,"0",false,,"DI",,false
+F32-000040,"Edge Position MM",false,"22",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000076,"Edge Position Reference Zero",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+AIS32-0.1.2.1,"Edge Sensor Analog",false,"0",,,,,,,,false,false,"0",false,"AIS32-0.1.2.1","AIS32",,false
+SSTRUC-000006,"Edge_Home_Position",false,,,,,,,,"System Structure for Find Home",,,,false,,"SSTRUC","HOME",false
+F32-000043,"Edge_Home_Position.Accel",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","HOME",false
+C-000052,"Edge_Home_Position.Complete",false,"0",,,,,,,,true,false,"0",false,,"C","HOME",false
+F32-000044,"Edge_Home_Position.Decel",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","HOME",false
+C-000051,"Edge_Home_Position.InProgress",false,"0",,,,,,,,false,false,"0",false,,"C","HOME",false
+F32-000045,"Edge_Home_Position.Position",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","HOME",false
+F32-000046,"Edge_Home_Position.Speed1",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","HOME",false
+F32-000047,"Edge_Home_Position.Speed2",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","HOME",false
+F32-000048,"Edge_Home_Position.Status",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","HOME",false
+C-000080,"EnableCut",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SWR-001526,"Ethernet Speed [External]",false,"0",,,,,,,"""Ethernet"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
+SWR-001527,"Ethernet Speed [Internal]",false,"0",,,,,,,"""Remote I/O"" port speed (Ethernet 10 or 100)",,,,false,,"SWR",,false
+SBR-001004,"Every Other Scan Bit",false,"0",,,,,,,"toggles at the start of each scan",,,,false,,"SBR",,false
+SWR-001509,"Firmware Version",false,"0",,,,,,,"CPU Firmware Version Number in Hex (ex: 0x0102 is version 01.02 or 1.2)",,,,false,,"SWR",,false
+SSTR-000104,"Firmware Version[CPU]",false,,,,50,,,,"CPU firmware version viewed as 001.000.009.023",,,,false,,"SSTR",,false
+SWR-001528,"Firmware Version[major]",false,"0",,,,,,,"CPU firmware Major version number in hex. (ex:  0x0100 =  major version 1.0)",,,,false,,"SWR",,false
+SWR-001529,"Firmware Version[minor]",false,"0",,,,,,,"CPU firmware Minor version number in hex. (ex: 0x0917 = minor version 9.23)",,,,false,,"SWR",,false
+SBR-001003,"First Scan Bit",false,"0",,,,,,,"On during first scan in Run or Debug mode",,,,false,,"SBR",,false
+SWR-001530,"First Scan Interval [x100=usec]",false,"0",,,,,,,"Holds the value of the First Scan time",,,,false,,"SWR",,false
+SBR-001007,"Forces Enabled",false,"0",,,,,,,"On if any forces are enabled",,,,false,,"SBR",,false
+F32-000082,"HighLimit",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000053,"Hole Size",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32",,false
+F32-000087,"HoleDistance1",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000096,"HoleDistance10",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000284,"HoleDistance100",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000282,"HoleDistance101",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000288,"HoleDistance102",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000286,"HoleDistance103",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000276,"HoleDistance104",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000274,"HoleDistance105",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000280,"HoleDistance106",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000278,"HoleDistance107",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000273,"HoleDistance108",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000272,"HoleDistance109",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000111,"HoleDistance11",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000269,"HoleDistance110",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000262,"HoleDistance111",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000260,"HoleDistance112",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000266,"HoleDistance113",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000264,"HoleDistance114",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000201,"HoleDistance115",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000199,"HoleDistance116",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000204,"HoleDistance117",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000203,"HoleDistance118",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000198,"HoleDistance119",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000112,"HoleDistance12",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000196,"HoleDistance120",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000194,"HoleDistance121",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000186,"HoleDistance122",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000184,"HoleDistance123",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000190,"HoleDistance124",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000188,"HoleDistance125",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000180,"HoleDistance126",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000178,"HoleDistance127",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000183,"HoleDistance128",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000182,"HoleDistance129",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000113,"HoleDistance13",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000171,"HoleDistance130",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000176,"HoleDistance131",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000174,"HoleDistance132",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000165,"HoleDistance133",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000163,"HoleDistance134",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000169,"HoleDistance135",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000167,"HoleDistance136",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000159,"HoleDistance137",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000158,"HoleDistance138",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000161,"HoleDistance139",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000450,"HoleDistance14",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000152,"HoleDistance140",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000150,"HoleDistance141",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000156,"HoleDistance142",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000154,"HoleDistance143",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000144,"HoleDistance144",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000142,"HoleDistance145",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000148,"HoleDistance146",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000146,"HoleDistance147",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000139,"HoleDistance148",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000138,"HoleDistance149",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000449,"HoleDistance15",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000120,"HoleDistance150",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000132,"HoleDistance151",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000130,"HoleDistance152",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000136,"HoleDistance153",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000134,"HoleDistance154",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000125,"HoleDistance155",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000123,"HoleDistance156",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000128,"HoleDistance157",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000127,"HoleDistance158",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000246,"HoleDistance159",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000452,"HoleDistance16",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000237,"HoleDistance160",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000236,"HoleDistance161",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000243,"HoleDistance162",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000242,"HoleDistance163",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000245,"HoleDistance164",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000244,"HoleDistance165",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000239,"HoleDistance166",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000238,"HoleDistance167",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000241,"HoleDistance168",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000240,"HoleDistance169",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000451,"HoleDistance17",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000226,"HoleDistance170",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000228,"HoleDistance171",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000227,"HoleDistance172",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000233,"HoleDistance173",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000232,"HoleDistance174",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000235,"HoleDistance175",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000234,"HoleDistance176",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000230,"HoleDistance177",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000229,"HoleDistance178",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000231,"HoleDistance179",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000448,"HoleDistance18",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000217,"HoleDistance180",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000216,"HoleDistance181",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000219,"HoleDistance182",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000218,"HoleDistance183",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000223,"HoleDistance184",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000222,"HoleDistance185",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000225,"HoleDistance186",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000224,"HoleDistance187",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000221,"HoleDistance188",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000220,"HoleDistance189",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000447,"HoleDistance19",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000210,"HoleDistance190",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000207,"HoleDistance191",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000206,"HoleDistance192",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000209,"HoleDistance193",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000208,"HoleDistance194",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000213,"HoleDistance195",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000212,"HoleDistance196",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000215,"HoleDistance197",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000214,"HoleDistance198",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000211,"HoleDistance199",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000088,"HoleDistance2",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000443,"HoleDistance20",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000444,"HoleDistance200",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000446,"HoleDistance201",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000445,"HoleDistance202",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000434,"HoleDistance203",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000432,"HoleDistance204",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000438,"HoleDistance205",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000436,"HoleDistance206",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000429,"HoleDistance207",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000427,"HoleDistance208",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000430,"HoleDistance209",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000440,"HoleDistance21",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000424,"HoleDistance210",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000423,"HoleDistance211",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000426,"HoleDistance212",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000425,"HoleDistance213",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000420,"HoleDistance214",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000419,"HoleDistance215",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000422,"HoleDistance216",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000421,"HoleDistance217",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000418,"HoleDistance218",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000417,"HoleDistance219",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000439,"HoleDistance22",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000416,"HoleDistance220",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000413,"HoleDistance221",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000412,"HoleDistance222",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000415,"HoleDistance223",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000414,"HoleDistance224",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000409,"HoleDistance225",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000408,"HoleDistance226",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000411,"HoleDistance227",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000410,"HoleDistance228",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000407,"HoleDistance229",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000442,"HoleDistance23",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000406,"HoleDistance230",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000405,"HoleDistance231",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000402,"HoleDistance232",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000401,"HoleDistance233",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000404,"HoleDistance234",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000403,"HoleDistance235",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000360,"HoleDistance236",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000359,"HoleDistance237",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000362,"HoleDistance238",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000361,"HoleDistance239",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000441,"HoleDistance24",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000356,"HoleDistance240",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000358,"HoleDistance241",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000357,"HoleDistance242",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000353,"HoleDistance243",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000352,"HoleDistance244",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000355,"HoleDistance245",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000354,"HoleDistance246",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000350,"HoleDistance247",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000349,"HoleDistance248",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000351,"HoleDistance249",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000433,"HoleDistance25",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000346,"HoleDistance250",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000345,"HoleDistance251",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000348,"HoleDistance252",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000347,"HoleDistance253",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000342,"HoleDistance254",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000341,"HoleDistance255",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000344,"HoleDistance256",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000343,"HoleDistance257",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000340,"HoleDistance258",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000339,"HoleDistance259",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000431,"HoleDistance26",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000330,"HoleDistance260",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000336,"HoleDistance261",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000335,"HoleDistance262",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000338,"HoleDistance263",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000337,"HoleDistance264",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000332,"HoleDistance265",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000331,"HoleDistance266",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000334,"HoleDistance267",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000333,"HoleDistance268",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000329,"HoleDistance269",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000437,"HoleDistance27",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000320,"HoleDistance270",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000319,"HoleDistance271",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000326,"HoleDistance272",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000325,"HoleDistance273",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000328,"HoleDistance274",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000327,"HoleDistance275",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000322,"HoleDistance276",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000321,"HoleDistance277",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000324,"HoleDistance278",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000323,"HoleDistance279",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000435,"HoleDistance28",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000373,"HoleDistance280",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000375,"HoleDistance281",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000374,"HoleDistance282",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000380,"HoleDistance283",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000379,"HoleDistance284",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000382,"HoleDistance285",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000381,"HoleDistance286",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000377,"HoleDistance287",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000376,"HoleDistance288",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000378,"HoleDistance289",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000428,"HoleDistance29",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000364,"HoleDistance290",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000363,"HoleDistance291",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000366,"HoleDistance292",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000365,"HoleDistance293",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000370,"HoleDistance294",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000369,"HoleDistance295",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000372,"HoleDistance296",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000371,"HoleDistance297",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000368,"HoleDistance298",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000367,"HoleDistance299",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000089,"HoleDistance3",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000472,"HoleDistance30",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000259,"HoleDistance300",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000258,"HoleDistance301",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000255,"HoleDistance302",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000254,"HoleDistance303",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000257,"HoleDistance304",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000256,"HoleDistance305",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000251,"HoleDistance306",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000250,"HoleDistance307",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000253,"HoleDistance308",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000252,"HoleDistance309",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000471,"HoleDistance31",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000247,"HoleDistance310",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000249,"HoleDistance311",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000248,"HoleDistance312",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000316,"HoleDistance313",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000315,"HoleDistance314",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000318,"HoleDistance315",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000317,"HoleDistance316",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000313,"HoleDistance317",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000312,"HoleDistance318",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000314,"HoleDistance319",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000468,"HoleDistance32",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000309,"HoleDistance320",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000308,"HoleDistance321",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000311,"HoleDistance322",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000310,"HoleDistance323",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000305,"HoleDistance324",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000304,"HoleDistance325",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000307,"HoleDistance326",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000306,"HoleDistance327",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000303,"HoleDistance328",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000302,"HoleDistance329",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000467,"HoleDistance33",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000301,"HoleDistance330",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000298,"HoleDistance331",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000297,"HoleDistance332",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000300,"HoleDistance333",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000299,"HoleDistance334",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000294,"HoleDistance335",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000293,"HoleDistance336",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000296,"HoleDistance337",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000295,"HoleDistance338",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000292,"HoleDistance339",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000470,"HoleDistance34",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000291,"HoleDistance340",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000290,"HoleDistance341",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000285,"HoleDistance342",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000283,"HoleDistance343",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000289,"HoleDistance344",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000287,"HoleDistance345",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000277,"HoleDistance346",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000275,"HoleDistance347",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000281,"HoleDistance348",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000279,"HoleDistance349",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000469,"HoleDistance35",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000268,"HoleDistance350",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000271,"HoleDistance351",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000270,"HoleDistance352",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000263,"HoleDistance353",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000261,"HoleDistance354",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000267,"HoleDistance355",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000265,"HoleDistance356",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000202,"HoleDistance357",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000200,"HoleDistance358",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000205,"HoleDistance359",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000464,"HoleDistance36",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000193,"HoleDistance360",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000192,"HoleDistance361",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000197,"HoleDistance362",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000195,"HoleDistance363",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000187,"HoleDistance364",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000185,"HoleDistance365",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000191,"HoleDistance366",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000189,"HoleDistance367",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000181,"HoleDistance368",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000179,"HoleDistance369",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000463,"HoleDistance37",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000162,"HoleDistance370",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000173,"HoleDistance371",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000172,"HoleDistance372",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000177,"HoleDistance373",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000175,"HoleDistance374",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000166,"HoleDistance375",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000164,"HoleDistance376",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000170,"HoleDistance377",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000168,"HoleDistance378",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000160,"HoleDistance379",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000466,"HoleDistance38",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000141,"HoleDistance380",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000140,"HoleDistance381",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000153,"HoleDistance382",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000151,"HoleDistance383",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000157,"HoleDistance384",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000155,"HoleDistance385",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000145,"HoleDistance386",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000143,"HoleDistance387",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000149,"HoleDistance388",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000147,"HoleDistance389",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000465,"HoleDistance39",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000119,"HoleDistance390",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000122,"HoleDistance391",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000121,"HoleDistance392",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000133,"HoleDistance393",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000131,"HoleDistance394",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000137,"HoleDistance395",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000135,"HoleDistance396",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000126,"HoleDistance397",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000124,"HoleDistance398",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000129,"HoleDistance399",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000090,"HoleDistance4",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000460,"HoleDistance40",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000400,"HoleDistance400",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000396,"HoleDistance401",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000395,"HoleDistance402",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000398,"HoleDistance403",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000397,"HoleDistance404",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000392,"HoleDistance405",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000391,"HoleDistance406",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000394,"HoleDistance407",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000393,"HoleDistance408",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000399,"HoleDistance409",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000462,"HoleDistance41",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000390,"HoleDistance410",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000389,"HoleDistance411",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000386,"HoleDistance412",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000385,"HoleDistance413",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000388,"HoleDistance414",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000387,"HoleDistance415",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000384,"HoleDistance416",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000383,"HoleDistance417",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000461,"HoleDistance42",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000457,"HoleDistance43",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000456,"HoleDistance44",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000459,"HoleDistance45",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000458,"HoleDistance46",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000454,"HoleDistance47",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000453,"HoleDistance48",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000455,"HoleDistance49",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000091,"HoleDistance5",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000490,"HoleDistance50",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000489,"HoleDistance51",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000492,"HoleDistance52",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000491,"HoleDistance53",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000486,"HoleDistance54",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000485,"HoleDistance55",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000488,"HoleDistance56",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000487,"HoleDistance57",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000484,"HoleDistance58",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000483,"HoleDistance59",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000092,"HoleDistance6",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000473,"HoleDistance60",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000480,"HoleDistance61",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000479,"HoleDistance62",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000482,"HoleDistance63",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000481,"HoleDistance64",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000476,"HoleDistance65",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000475,"HoleDistance66",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000478,"HoleDistance67",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000477,"HoleDistance68",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000474,"HoleDistance69",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000093,"HoleDistance7",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000504,"HoleDistance70",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000503,"HoleDistance71",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000510,"HoleDistance72",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000509,"HoleDistance73",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000512,"HoleDistance74",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000511,"HoleDistance75",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000506,"HoleDistance76",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000505,"HoleDistance77",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000508,"HoleDistance78",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000507,"HoleDistance79",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000094,"HoleDistance8",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000493,"HoleDistance80",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000495,"HoleDistance81",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000494,"HoleDistance82",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000500,"HoleDistance83",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000499,"HoleDistance84",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000502,"HoleDistance85",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000501,"HoleDistance86",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000497,"HoleDistance87",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000496,"HoleDistance88",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000498,"HoleDistance89",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000095,"HoleDistance9",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000514,"HoleDistance90",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000513,"HoleDistance91",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000516,"HoleDistance92",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000515,"HoleDistance93",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000520,"HoleDistance94",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000519,"HoleDistance95",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000522,"HoleDistance96",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000521,"HoleDistance97",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000518,"HoleDistance98",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000517,"HoleDistance99",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000098,"HoleSize1",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000097,"HoleSize10",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000099,"HoleSize2",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000100,"HoleSize3",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000101,"HoleSize4",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000102,"HoleSize5",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000103,"HoleSize6",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000104,"HoleSize7",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000105,"HoleSize8",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000106,"HoleSize9",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000079,"HomePosition",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000089,"Home_Die_Motor",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000060,"Home_Postion",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+C-000091,"Home_Table_Motor",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SBR-001015,"I/O Configuration Error",false,"0",,,,,,,"On if actual I/O configuration and project I/O configuration do not match",,,,false,,"SBR",,false
+SBR-001014,"I/O Error",false,"0",,,,,,,"On for any module error (such as a blown fuse)",,,,false,,"SBR",,false
+SWRW-001758,"Identify Module Base Number",false,"0",,,,,,,"base number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SWRW-001757,"Identify Module Group Number",false,"0",,,,,,,"group number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+SBRW-001005,"Identify Module Request bit",false,"0",,,,,,,"set On to refresh ""Requested Module Name"" tag per the 3 ""Identify"" GBS tags",,,,false,,"SBRW",,false
+SWRW-001759,"Identify Module Slot Number",false,"0",,,,,,,"slot number of module to be identified (See ""Requested Module Name"" tag)",,,,false,,"SWRW",,false
+C-000057,"InProgress",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+F32-000081,"InchesMoved",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000111,"IncrementCount",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+S32-000123,"Index",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SBRW-001002,"Initiate_New_Date",false,"0",,,,,,,"set On to change clock date (see ""Clock Year Set"" tag)",,,,false,,"SBRW",,false
+SBRW-001001,"Initiate_New_Time",false,"0",,,,,,,"set On to change clock time (see ""Clock Hours Set"" tag)",,,,false,,"SBRW",,false
+S32-000085,"Jerk",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SWR-001504,"Last Logic Scan Time [x100=usec]",false,"0",,,,,,,"most recent logic scan time",,,,false,,"SWR",,false
+SWR-001501,"Last Scan Interval [x100=usec]",false,"0",,,,,,,"most recent overall scan time",,,,false,,"SWR",,false
+C-000106,"LatchHomeDie",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000107,"LatchHomeTable",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000109,"LatchHomeTable1",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+STR-000001,"Line2",false,,,,10,,,,,,,,false,,"STR",,false
+STR-000002,"Line3",false,,,,10,,,,,,,,false,,"STR",,false
+STR-000003,"Line4",false,,,,10,,,,,,,,false,,"STR",,false
+F32-000083,"LowLimit",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+MST-0.0.0.1,"MST-0.0.0.1",false,"0",,,,,,,"RS232 Heartbeat Timeout Bit",false,false,"0",false,"MST-0.0.0.1","MST",,false
+MST-0.0.0.2,"MST-0.0.0.2",false,"0",,,,,,,"RS232 Port Buffer Full Bit (95% Full)",false,false,"0",false,"MST-0.0.0.2","MST",,false
+MST-0.0.0.3,"MST-0.0.0.3",false,"0",,,,,,,"RS232 Port Ready Bit",false,false,"0",false,"MST-0.0.0.3","MST",,false
+MST-0.0.0.33,"MST-0.0.0.33",false,"0",,,,,,,"RS485 Heartbeat Timeout Bit",false,false,"0",false,"MST-0.0.0.33","MST",,false
+MST-0.0.0.34,"MST-0.0.0.34",false,"0",,,,,,,"RS485 Port Buffer Full Bit (95% Full)",false,false,"0",false,"MST-0.0.0.34","MST",,false
+MST-0.0.0.35,"MST-0.0.0.35",false,"0",,,,,,,"RS485 Port Ready Bit",false,false,"0",false,"MST-0.0.0.35","MST",,false
+MST-0.0.0.65,"MST-0.0.0.65",false,"0",,,,,,,"Ethernet Heartbeat Timeout Bit",false,false,"0",false,"MST-0.0.0.65","MST",,false
+MST-0.0.0.66,"MST-0.0.0.66",false,"0",,,,,,,"Ethernet Port Buffer Full Bit (95% Full)",false,false,"0",false,"MST-0.0.0.66","MST",,false
+MST-0.0.0.67,"MST-0.0.0.67",false,"0",,,,,,,"Ethernet Port Ready Bit",false,false,"0",false,"MST-0.0.0.67","MST",,false
+MST-0.1.4.1,"MST-0.1.4.1",false,"0",,,,,,,"Module Ready",false,false,"0",false,"MST-0.1.4.1","MST",,false
+MST-0.1.4.33,"MST-0.1.4.33",false,"0",,,,,,,"Port 1 Heartbeat Timeout Bit",false,false,"0",false,"MST-0.1.4.33","MST",,false
+MST-0.1.4.34,"MST-0.1.4.34",false,"0",,,,,,,"Port 1 Port Buffer Full Bit (95% Full)",false,false,"0",false,"MST-0.1.4.34","MST",,false
+MST-0.1.4.35,"MST-0.1.4.35",false,"0",,,,,,,"Port 1 Port Ready Bit",false,false,"0",false,"MST-0.1.4.35","MST",,false
+MST-0.1.4.37,"MST-0.1.4.37",false,"0",,,,,,,"Port 1 5V Failed or Overloaded",false,false,"0",false,"MST-0.1.4.37","MST",,false
+MST-0.1.4.49,"MST-0.1.4.49",false,"0",,,,,,,"Port 2 Heartbeat Timeout Bit",false,false,"0",false,"MST-0.1.4.49","MST",,false
+MST-0.1.4.50,"MST-0.1.4.50",false,"0",,,,,,,"Port 2 Port Buffer Full Bit (95% Full)",false,false,"0",false,"MST-0.1.4.50","MST",,false
+MST-0.1.4.51,"MST-0.1.4.51",false,"0",,,,,,,"Port 2 Port Ready Bit",false,false,"0",false,"MST-0.1.4.51","MST",,false
+MST-0.1.4.52,"MST-0.1.4.52",false,"0",,,,,,,"Port 2 CTS Timeout",false,false,"0",false,"MST-0.1.4.52","MST",,false
+MST-0.1.4.65,"MST-0.1.4.65",false,"0",,,,,,,"Port 3 Heartbeat Timeout Bit",false,false,"0",false,"MST-0.1.4.65","MST",,false
+MST-0.1.4.66,"MST-0.1.4.66",false,"0",,,,,,,"Port 3 Port Buffer Full Bit (95% Full)",false,false,"0",false,"MST-0.1.4.66","MST",,false
+MST-0.1.4.67,"MST-0.1.4.67",false,"0",,,,,,,"Port 3 Port Ready Bit",false,false,"0",false,"MST-0.1.4.67","MST",,false
+MST-0.1.4.68,"MST-0.1.4.68",false,"0",,,,,,,"Port 3 CTS Timeout",false,false,"0",false,"MST-0.1.4.68","MST",,false
+MST-0.1.4.81,"MST-0.1.4.81",false,"0",,,,,,,"Port 4 Heartbeat Timeout Bit",false,false,"0",false,"MST-0.1.4.81","MST",,false
+MST-0.1.4.82,"MST-0.1.4.82",false,"0",,,,,,,"Port 4 Port Buffer Full Bit (95% Full)",false,false,"0",false,"MST-0.1.4.82","MST",,false
+MST-0.1.4.83,"MST-0.1.4.83",false,"0",,,,,,,"Port 4 Port Ready Bit",false,false,"0",false,"MST-0.1.4.83","MST",,false
+C-000086,"MoveDiePosition",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000110,"NextHoleSize",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SBR-001013,"Noncritical Error Bit",false,"0",,,,,,,"On when a noncritical error is active",,,,false,,"SBR",,false
+SWR-000021,"Noncritical Error Log 01",false,"0",,,,,,,"most recent noncritical error",,,,false,,"SWR",,false
+SWR-000022,"Noncritical Error Log 02",false,"0",,,,,,,"2nd most recent noncritical error",,,,false,,"SWR",,false
+SWR-000023,"Noncritical Error Log 03",false,"0",,,,,,,"3rd most recent noncritical error",,,,false,,"SWR",,false
+SWR-000024,"Noncritical Error Log 04",false,"0",,,,,,,"4th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000025,"Noncritical Error Log 05",false,"0",,,,,,,"5th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000026,"Noncritical Error Log 06",false,"0",,,,,,,"6th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000027,"Noncritical Error Log 07",false,"0",,,,,,,"7th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000028,"Noncritical Error Log 08",false,"0",,,,,,,"8th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000029,"Noncritical Error Log 09",false,"0",,,,,,,"9th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000030,"Noncritical Error Log 10",false,"0",,,,,,,"10th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000031,"Noncritical Error Log 11",false,"0",,,,,,,"11th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000032,"Noncritical Error Log 12",false,"0",,,,,,,"12th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000033,"Noncritical Error Log 13",false,"0",,,,,,,"13th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000034,"Noncritical Error Log 14",false,"0",,,,,,,"14th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000035,"Noncritical Error Log 15",false,"0",,,,,,,"15th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000036,"Noncritical Error Log 16",false,"0",,,,,,,"16th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000037,"Noncritical Error Log 17",false,"0",,,,,,,"17th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000038,"Noncritical Error Log 18",false,"0",,,,,,,"18th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000039,"Noncritical Error Log 19",false,"0",,,,,,,"19th most recent noncritical error",,,,false,,"SWR",,false
+SWR-000040,"Noncritical Error Log 20",false,"0",,,,,,,"20th most recent noncritical error",,,,false,,"SWR",,false
+SSTR-000021,"Noncritical Error Log String 01",false,,,,50,,,,"most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000022,"Noncritical Error Log String 02",false,,,,50,,,,"2nd most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000023,"Noncritical Error Log String 03",false,,,,50,,,,"3rd most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000024,"Noncritical Error Log String 04",false,,,,50,,,,"4th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000025,"Noncritical Error Log String 05",false,,,,50,,,,"5th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000026,"Noncritical Error Log String 06",false,,,,50,,,,"6th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000027,"Noncritical Error Log String 07",false,,,,50,,,,"7th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000028,"Noncritical Error Log String 08",false,,,,50,,,,"8th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000029,"Noncritical Error Log String 09",false,,,,50,,,,"9th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000030,"Noncritical Error Log String 10",false,,,,50,,,,"10th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000031,"Noncritical Error Log String 11",false,,,,50,,,,"11th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000032,"Noncritical Error Log String 12",false,,,,50,,,,"12th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000033,"Noncritical Error Log String 13",false,,,,50,,,,"13th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000034,"Noncritical Error Log String 14",false,,,,50,,,,"14th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000035,"Noncritical Error Log String 15",false,,,,50,,,,"15th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000036,"Noncritical Error Log String 16",false,,,,50,,,,"16th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000037,"Noncritical Error Log String 17",false,,,,50,,,,"17th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000038,"Noncritical Error Log String 18",false,,,,50,,,,"18th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000039,"Noncritical Error Log String 19",false,,,,50,,,,"19th most recent noncritical error message",,,,false,,"SSTR",,false
+SSTR-000040,"Noncritical Error Log String 20",false,,,,50,,,,"20th most recent noncritical error message",,,,false,,"SSTR",,false
+SWRW-000251,"Number of Critical Errors",false,"0",,,,,,,"number of critical errors",,,,false,,"SWRW",,false
+SWRW-000252,"Number of Non-critical Errors",false,"0",,,,,,,"number of noncritical errors",,,,false,,"SWRW",,false
+C-000084,"Ons",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SSTR-000105,"PLC LCD Display[CPU]",false,,,,50,,,,"PLC LCD Data Display",,,,false,,"SSTR",,false
+SWR-001505,"Peak Logic Scan Time [x100=usec]",false,"0",,,,,,,"longest logic scan time",,,,false,,"SWR",,false
+SWR-001502,"Peak Scan Interval [x100=usec]",false,"0",,,,,,,"longest overall scan time",,,,false,,"SWR",,false
+SSTRUC-000001,"PolyPipe",false,,,,,,,,"System Structure for an AMC Module",,,,false,,"SSTRUC","AMC4",false
+S32-000007,"PolyPipe.Ax1AxisStatus",false,"0",,,,,,,,false,false,"0",false,,"S32","AMC4",false
+S32-000002,"PolyPipe.Ax1Deviation",false,"0",,,,,,,,false,false,"0",false,,"S32","AMC4",false
+F32-000021,"PolyPipe.Ax1EncPosition",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+C-000002,"PolyPipe.Ax1In1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000003,"PolyPipe.Ax1In2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000004,"PolyPipe.Ax1In3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000005,"PolyPipe.Ax1In4",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000006,"PolyPipe.Ax1In5",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000007,"PolyPipe.Ax1In6",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000008,"PolyPipe.Ax1Out1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000009,"PolyPipe.Ax1Out2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000010,"PolyPipe.Ax1Out3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+F32-000001,"PolyPipe.Ax1Position",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+F32-000002,"PolyPipe.Ax1ResetPosition",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+F32-000003,"PolyPipe.Ax1Velocity",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+S32-000013,"PolyPipe.Ax2AxisStatus",false,"0",,,,,,,,false,false,"0",false,,"S32","AMC4",false
+F32-000004,"PolyPipe.Ax2Deviation",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+S32-000074,"PolyPipe.Ax2EncPosition",true,"0",,,,,,,,true,false,"0",false,,"S32","AMC4",false
+C-000011,"PolyPipe.Ax2In1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000012,"PolyPipe.Ax2In2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000013,"PolyPipe.Ax2In3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000014,"PolyPipe.Ax2In4",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000015,"PolyPipe.Ax2In5",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000016,"PolyPipe.Ax2In6",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000017,"PolyPipe.Ax2Out1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000018,"PolyPipe.Ax2Out2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000019,"PolyPipe.Ax2Out3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+F32-000006,"PolyPipe.Ax2Position",true,"0.0",,,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+F32-000007,"PolyPipe.Ax2ResetPosition",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+F32-000008,"PolyPipe.Ax2Velocity",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+S32-000019,"PolyPipe.Ax3AxisStatus",false,"0",,,,,,,,false,false,"0",false,,"S32","AMC4",false
+F32-000009,"PolyPipe.Ax3Deviation",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+F32-000010,"PolyPipe.Ax3EncPosition",true,"0.0",,,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+C-000020,"PolyPipe.Ax3In1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000021,"PolyPipe.Ax3In2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000022,"PolyPipe.Ax3In3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000023,"PolyPipe.Ax3In4",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000024,"PolyPipe.Ax3In5",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000025,"PolyPipe.Ax3In6",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000026,"PolyPipe.Ax3Out1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000027,"PolyPipe.Ax3Out2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000028,"PolyPipe.Ax3Out3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+F32-000020,"PolyPipe.Ax3Position",true,"0.0",400001,400002,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+F32-000037,"PolyPipe.Ax3ResetPosition",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+F32-000019,"PolyPipe.Ax3Velocity",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+S32-000025,"PolyPipe.Ax4AxisStatus",false,"0",,,,,,,,false,false,"0",false,,"S32","AMC4",false
+S32-000020,"PolyPipe.Ax4Deviation",false,"0",,,,,,,,false,false,"0",false,,"S32","AMC4",false
+F32-000035,"PolyPipe.Ax4EncPosition",true,"0.0",,,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+C-000029,"PolyPipe.Ax4In1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000030,"PolyPipe.Ax4In2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000031,"PolyPipe.Ax4In3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000032,"PolyPipe.Ax4In4",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000033,"PolyPipe.Ax4In5",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000034,"PolyPipe.Ax4In6",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000035,"PolyPipe.Ax4Out1",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000036,"PolyPipe.Ax4Out2",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+C-000037,"PolyPipe.Ax4Out3",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+F32-000036,"PolyPipe.Ax4Position",true,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+F32-000038,"PolyPipe.Ax4ResetPosition",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","AMC4",false
+F32-000034,"PolyPipe.Ax4Velocity",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","AMC4",false
+C-000001,"PolyPipe.ModuleReady",false,"0",,,,,,,,false,false,"0",false,,"C","AMC4",false
+S32-000001,"PolyPipe.ModuleStatus",false,"0",,,,,,,,false,false,"0",false,,"S32","AMC4",false
+F32-000069,"PolyPipePositionCapture",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000069,"PolyPipePositionSet",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+S32-000109,"PolyPipePunchTrigger",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SBRW-001006,"Portable Memory Device Eject",false,"0",,,,,,,"Users set to 1(ON) and the system reset to 0 as eject is completed",,,,false,,"SBRW",,false
+SBR-000001,"Portable Memory Device Ready",false,"0",,,,,,,"PMD is installed and ready to use",,,,false,,"SBR",,false
+F32-000107,"Potent_Edge_scale_mm",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000084,"PotentiometerPositionMM",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000054,"Preset1Target",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000055,"Preset2Target",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+S32-000086,"PresetPulseTime",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SWR-001512,"Program Memory Size",false,"0",,,,,,,"current percentage of CPU memory used by the project",,,,false,,"SWR",,false
+SBRW-001003,"Refresh Critical Error Log",false,"0",,,,,,,"set On to refresh the ""Critical Error Log""",,,,false,,"SBRW",,false
+SBRW-001004,"Refresh Non-Critical Error Log",false,"0",,,,,,,"set On to refresh the ""Noncritical Error Log""",,,,false,,"SBRW",,false
+F32-000056,"RegCapture",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+S32-000087,"RegCount",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000088,"RegDecel",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000089,"RegDelay",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000090,"RegPulseTime",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SSTR-000103,"Requested Module Name",false,,,,50,,,,"name of specified module (see ""Identify Module Request bit"")",,,,false,,"SSTR",,false
+S32-000125,"Reset",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+C-000085,"ResetPosition",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+S32-000110,"Row Spacing Inches",false,"0",,,,,,,,true,false,"0",false,,"S32",,false
+S32-000131,"RowCount",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000132,"RowCount2",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000133,"RowCount3",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000134,"RowCount4",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000135,"RowCount5",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000113,"SecondsRunning",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+F32-000086,"Set_Potent",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+S32-000091,"Status",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+F32-000085,"Step_Pulses",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000083,"StopCutCycle",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+S32-000114,"StopPosition",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SBR-001010,"Switch in Run Bit",false,"0",,,,,,,"On if CPU Switch is up (Run)",,,,false,,"SBR",,false
+SBR-001011,"Switch in Stop Bit",false,"0",,,,,,,"On if CPU Switch is down (Stop)",,,,false,,"SBR",,false
+C-000094,"SystemEnable",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+SSTRUC-000004,"Table Motor",false,,,,,,,,"System Structure for Velocity Move",,,,false,,"SSTRUC","VMOV",false
+SSTRUC-000007,"Table Motor Index In",false,,,,,,,,"System Structure for Velocity Move",,,,false,,"SSTRUC","VMOV",false
+C-000055,"Table Motor Index In.Complete",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+C-000054,"Table Motor Index In.InProgress",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+S32-000078,"Table Motor Index In.Jerk",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000049,"Table Motor Index In.RampRate",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000082,"Table Motor Index In.RegCapture",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+S32-000079,"Table Motor Index In.RegCount",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+S32-000081,"Table Motor Index In.RegDecel",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+S32-000080,"Table Motor Index In.RegDelay",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+S32-000083,"Table Motor Index In.RegPulseTime",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+S32-000084,"Table Motor Index In.Status",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000050,"Table Motor Index In.Velocity",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+C-000044,"Table Motor On",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+F32-000108,"Table Motor Ramp Rate",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000109,"Table Motor Velocity",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000046,"Table Motor.Complete",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+C-000045,"Table Motor.InProgress",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+F32-000028,"Table Motor.Jerk",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+F32-000029,"Table Motor.RampRate",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","VMOV",false
+F32-000030,"Table Motor.RegCapture",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000046,"Table Motor.RegCount",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000031,"Table Motor.RegDecel",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000047,"Table Motor.RegDelay",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000032,"Table Motor.RegPulseTime",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000051,"Table Motor.Status",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000033,"Table Motor.Velocity",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","VMOV",false
+SSTRUC-000005,"Table_Move",false,,,,,,,,"System Structure for Simple Move",,,,false,,"SSTRUC","SMOV",false
+F32-000041,"Table_Move.Accel",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+C-000050,"Table_Move.Complete",false,"0",,,,,,,,false,false,"0",false,,"C","SMOV",false
+F32-000042,"Table_Move.Decel",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+C-000049,"Table_Move.InProgress",false,"0",,,,,,,,false,false,"0",false,,"C","SMOV",false
+S32-000059,"Table_Move.Jerk",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000067,"Table_Move.Preset1Target",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000068,"Table_Move.Preset2Target",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000066,"Table_Move.PresetPulseTime",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000063,"Table_Move.RegCapture",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000060,"Table_Move.RegCount",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000062,"Table_Move.RegDecel",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000061,"Table_Move.RegDelay",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000064,"Table_Move.RegPulseTime",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+S32-000065,"Table_Move.Status",false,"0",,,,,,,,false,false,"0",false,,"S32","SMOV",false
+F32-000052,"Table_Move.Target",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+F32-000051,"Table_Move.Velocity",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32","SMOV",false
+C-000071,"Target Die Position Complete",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+F32-000068,"Target Die Position MM",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000075,"Target Die Position Test",false,"0.0",,,,,,,,true,false,"0.0",false,,"F32",,false
+C-000090,"TestEdgePosZero",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+DI-0.1.3.1,"TestHomeSwitch",false,"0",,,,,,,,false,false,"0",false,"DI-0.1.3.1","DI",,false
+S32-000112,"TimeRunning",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+SSTRUC-000002,"Top Motor",false,,,,,,,,"System Structure for Velocity Move",,,,false,,"SSTRUC","VMOV",false
+C-000040,"Top Motor On",false,"0",,,,,,,,true,false,"0",false,,"C",,false
+C-000039,"Top Motor.Complete",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+C-000038,"Top Motor.InProgress",false,"0",,,,,,,,false,false,"0",false,,"C","VMOV",false
+F32-000011,"Top Motor.Jerk",true,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+F32-000012,"Top Motor.RampRate",true,"0.0",,,,,,,,true,false,"0.0",false,,"F32","VMOV",false
+F32-000013,"Top Motor.RegCapture",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+S32-000029,"Top Motor.RegCount",false,"0",,,,,,,,false,false,"0",false,,"S32","VMOV",false
+F32-000014,"Top Motor.RegDecel",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+F32-000015,"Top Motor.RegDelay",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+F32-000016,"Top Motor.RegPulseTime",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+F32-000017,"Top Motor.Status",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32","VMOV",false
+F32-000018,"Top Motor.Velocity",true,"0.0",,,,,,,,true,false,"0.0",false,,"F32","VMOV",false
+SWR-001507,"Total Scan Count1",false,"0",,,,,,,"total number of scans since entering Run mode (S32 low word)",,,,false,,"SWR",,false
+SWR-001508,"Total Scan Count2",false,"0",,,,,,,"total number of scans since entering Run mode (S32 high word)",,,,false,,"SWR",,false
+C-000081,"TriggerCut",false,"0",,,,,,,,true,false,"0",true,,"C",,false
+C-000095,"TriggerCutAtPosition",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000096,"TriggerCutPosition1",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000105,"TriggerCutPosition10",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000386,"TriggerCutPosition100",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000388,"TriggerCutPosition101",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000411,"TriggerCutPosition102",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000413,"TriggerCutPosition103",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000415,"TriggerCutPosition104",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000417,"TriggerCutPosition105",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000405,"TriggerCutPosition106",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000407,"TriggerCutPosition107",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000409,"TriggerCutPosition108",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000410,"TriggerCutPosition109",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000112,"TriggerCutPosition11",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000398,"TriggerCutPosition110",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000400,"TriggerCutPosition111",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000402,"TriggerCutPosition112",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000433,"TriggerCutPosition113",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000435,"TriggerCutPosition114",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000437,"TriggerCutPosition115",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000439,"TriggerCutPosition116",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000429,"TriggerCutPosition117",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000431,"TriggerCutPosition118",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000432,"TriggerCutPosition119",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000113,"TriggerCutPosition12",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000419,"TriggerCutPosition120",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000421,"TriggerCutPosition121",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000423,"TriggerCutPosition122",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000425,"TriggerCutPosition123",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000455,"TriggerCutPosition124",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000457,"TriggerCutPosition125",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000459,"TriggerCutPosition126",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000461,"TriggerCutPosition127",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000453,"TriggerCutPosition128",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000454,"TriggerCutPosition129",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000114,"TriggerCutPosition13",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000451,"TriggerCutPosition130",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000441,"TriggerCutPosition131",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000443,"TriggerCutPosition132",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000445,"TriggerCutPosition133",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000447,"TriggerCutPosition134",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000478,"TriggerCutPosition135",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000480,"TriggerCutPosition136",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000482,"TriggerCutPosition137",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000484,"TriggerCutPosition138",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000477,"TriggerCutPosition139",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000139,"TriggerCutPosition14",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000473,"TriggerCutPosition140",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000475,"TriggerCutPosition141",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000463,"TriggerCutPosition142",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000465,"TriggerCutPosition143",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000467,"TriggerCutPosition144",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000469,"TriggerCutPosition145",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000501,"TriggerCutPosition146",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000503,"TriggerCutPosition147",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000505,"TriggerCutPosition148",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000506,"TriggerCutPosition149",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000140,"TriggerCutPosition15",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000495,"TriggerCutPosition150",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000497,"TriggerCutPosition151",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000499,"TriggerCutPosition152",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000486,"TriggerCutPosition153",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000488,"TriggerCutPosition154",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000490,"TriggerCutPosition155",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000492,"TriggerCutPosition156",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000515,"TriggerCutPosition157",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000517,"TriggerCutPosition158",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000518,"TriggerCutPosition159",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000135,"TriggerCutPosition16",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000511,"TriggerCutPosition160",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000512,"TriggerCutPosition161",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000513,"TriggerCutPosition162",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000514,"TriggerCutPosition163",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000507,"TriggerCutPosition164",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000508,"TriggerCutPosition165",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000509,"TriggerCutPosition166",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000510,"TriggerCutPosition167",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000350,"TriggerCutPosition168",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000351,"TriggerCutPosition169",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000136,"TriggerCutPosition17",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000341,"TriggerCutPosition170",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000346,"TriggerCutPosition171",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000347,"TriggerCutPosition172",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000348,"TriggerCutPosition173",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000349,"TriggerCutPosition174",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000342,"TriggerCutPosition175",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000343,"TriggerCutPosition176",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000344,"TriggerCutPosition177",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000345,"TriggerCutPosition178",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000362,"TriggerCutPosition179",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000137,"TriggerCutPosition18",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000352,"TriggerCutPosition180",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000353,"TriggerCutPosition181",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000358,"TriggerCutPosition182",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000359,"TriggerCutPosition183",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000360,"TriggerCutPosition184",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000361,"TriggerCutPosition185",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000354,"TriggerCutPosition186",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000355,"TriggerCutPosition187",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000356,"TriggerCutPosition188",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000357,"TriggerCutPosition189",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000138,"TriggerCutPosition19",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000363,"TriggerCutPosition190",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000364,"TriggerCutPosition191",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000365,"TriggerCutPosition192",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000369,"TriggerCutPosition193",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000370,"TriggerCutPosition194",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000371,"TriggerCutPosition195",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000372,"TriggerCutPosition196",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000366,"TriggerCutPosition197",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000367,"TriggerCutPosition198",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000368,"TriggerCutPosition199",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000097,"TriggerCutPosition2",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000132,"TriggerCutPosition20",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000340,"TriggerCutPosition200",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000240,"TriggerCutPosition201",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000241,"TriggerCutPosition202",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000242,"TriggerCutPosition203",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000243,"TriggerCutPosition204",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000236,"TriggerCutPosition205",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000237,"TriggerCutPosition206",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000238,"TriggerCutPosition207",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000239,"TriggerCutPosition208",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000244,"TriggerCutPosition209",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000133,"TriggerCutPosition21",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000234,"TriggerCutPosition210",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000235,"TriggerCutPosition211",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000252,"TriggerCutPosition212",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000253,"TriggerCutPosition213",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000254,"TriggerCutPosition214",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000255,"TriggerCutPosition215",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000248,"TriggerCutPosition216",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000249,"TriggerCutPosition217",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000250,"TriggerCutPosition218",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000251,"TriggerCutPosition219",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000134,"TriggerCutPosition22",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000245,"TriggerCutPosition220",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000246,"TriggerCutPosition221",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000247,"TriggerCutPosition222",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000263,"TriggerCutPosition223",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000264,"TriggerCutPosition224",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000265,"TriggerCutPosition225",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000266,"TriggerCutPosition226",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000260,"TriggerCutPosition227",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000261,"TriggerCutPosition228",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000262,"TriggerCutPosition229",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000128,"TriggerCutPosition23",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000256,"TriggerCutPosition230",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000257,"TriggerCutPosition231",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000258,"TriggerCutPosition232",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000259,"TriggerCutPosition233",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000274,"TriggerCutPosition234",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000275,"TriggerCutPosition235",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000276,"TriggerCutPosition236",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000277,"TriggerCutPosition237",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000272,"TriggerCutPosition238",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000273,"TriggerCutPosition239",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000129,"TriggerCutPosition24",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000271,"TriggerCutPosition240",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000267,"TriggerCutPosition241",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000268,"TriggerCutPosition242",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000269,"TriggerCutPosition243",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000270,"TriggerCutPosition244",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000285,"TriggerCutPosition245",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000286,"TriggerCutPosition246",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000287,"TriggerCutPosition247",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000288,"TriggerCutPosition248",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000284,"TriggerCutPosition249",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000130,"TriggerCutPosition25",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000282,"TriggerCutPosition250",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000283,"TriggerCutPosition251",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000278,"TriggerCutPosition252",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000279,"TriggerCutPosition253",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000280,"TriggerCutPosition254",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000281,"TriggerCutPosition255",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000296,"TriggerCutPosition256",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000297,"TriggerCutPosition257",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000298,"TriggerCutPosition258",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000299,"TriggerCutPosition259",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000131,"TriggerCutPosition26",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000293,"TriggerCutPosition260",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000294,"TriggerCutPosition261",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000295,"TriggerCutPosition262",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000289,"TriggerCutPosition263",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000290,"TriggerCutPosition264",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000291,"TriggerCutPosition265",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000292,"TriggerCutPosition266",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000308,"TriggerCutPosition267",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000309,"TriggerCutPosition268",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000310,"TriggerCutPosition269",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000125,"TriggerCutPosition27",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000304,"TriggerCutPosition270",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000305,"TriggerCutPosition271",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000306,"TriggerCutPosition272",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000307,"TriggerCutPosition273",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000300,"TriggerCutPosition274",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000301,"TriggerCutPosition275",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000302,"TriggerCutPosition276",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000303,"TriggerCutPosition277",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000320,"TriggerCutPosition278",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000321,"TriggerCutPosition279",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000126,"TriggerCutPosition28",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000311,"TriggerCutPosition280",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000316,"TriggerCutPosition281",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000317,"TriggerCutPosition282",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000318,"TriggerCutPosition283",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000319,"TriggerCutPosition284",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000312,"TriggerCutPosition285",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000313,"TriggerCutPosition286",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000314,"TriggerCutPosition287",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000315,"TriggerCutPosition288",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000233,"TriggerCutPosition289",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000127,"TriggerCutPosition29",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000223,"TriggerCutPosition290",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000224,"TriggerCutPosition291",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000229,"TriggerCutPosition292",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000230,"TriggerCutPosition293",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000231,"TriggerCutPosition294",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000232,"TriggerCutPosition295",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000225,"TriggerCutPosition296",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000226,"TriggerCutPosition297",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000227,"TriggerCutPosition298",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000228,"TriggerCutPosition299",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000098,"TriggerCutPosition3",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000121,"TriggerCutPosition30",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000168,"TriggerCutPosition300",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000169,"TriggerCutPosition301",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000170,"TriggerCutPosition302",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000171,"TriggerCutPosition303",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000164,"TriggerCutPosition304",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000165,"TriggerCutPosition305",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000166,"TriggerCutPosition306",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000167,"TriggerCutPosition307",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000177,"TriggerCutPosition308",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000179,"TriggerCutPosition309",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000122,"TriggerCutPosition31",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000163,"TriggerCutPosition310",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000190,"TriggerCutPosition311",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000191,"TriggerCutPosition312",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000192,"TriggerCutPosition313",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000193,"TriggerCutPosition314",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000185,"TriggerCutPosition315",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000186,"TriggerCutPosition316",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000187,"TriggerCutPosition317",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000188,"TriggerCutPosition318",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000199,"TriggerCutPosition319",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000123,"TriggerCutPosition32",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000183,"TriggerCutPosition320",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000184,"TriggerCutPosition321",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000380,"TriggerCutPosition322",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000381,"TriggerCutPosition323",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000382,"TriggerCutPosition324",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000383,"TriggerCutPosition325",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000376,"TriggerCutPosition326",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000377,"TriggerCutPosition327",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000378,"TriggerCutPosition328",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000379,"TriggerCutPosition329",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000124,"TriggerCutPosition33",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000373,"TriggerCutPosition330",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000374,"TriggerCutPosition331",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000375,"TriggerCutPosition332",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000393,"TriggerCutPosition333",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000394,"TriggerCutPosition334",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000395,"TriggerCutPosition335",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000396,"TriggerCutPosition336",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000390,"TriggerCutPosition337",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000391,"TriggerCutPosition338",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000392,"TriggerCutPosition339",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000117,"TriggerCutPosition34",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000384,"TriggerCutPosition340",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000385,"TriggerCutPosition341",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000387,"TriggerCutPosition342",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000389,"TriggerCutPosition343",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000412,"TriggerCutPosition344",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000414,"TriggerCutPosition345",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000416,"TriggerCutPosition346",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000418,"TriggerCutPosition347",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000406,"TriggerCutPosition348",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000408,"TriggerCutPosition349",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000118,"TriggerCutPosition35",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000404,"TriggerCutPosition350",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000397,"TriggerCutPosition351",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000399,"TriggerCutPosition352",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000401,"TriggerCutPosition353",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000403,"TriggerCutPosition354",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000434,"TriggerCutPosition355",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000436,"TriggerCutPosition356",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000438,"TriggerCutPosition357",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000440,"TriggerCutPosition358",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000430,"TriggerCutPosition359",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000119,"TriggerCutPosition36",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000427,"TriggerCutPosition360",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000428,"TriggerCutPosition361",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000420,"TriggerCutPosition362",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000422,"TriggerCutPosition363",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000424,"TriggerCutPosition364",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000426,"TriggerCutPosition365",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000456,"TriggerCutPosition366",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000458,"TriggerCutPosition367",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000460,"TriggerCutPosition368",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000462,"TriggerCutPosition369",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000120,"TriggerCutPosition37",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000449,"TriggerCutPosition370",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000450,"TriggerCutPosition371",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000452,"TriggerCutPosition372",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000442,"TriggerCutPosition373",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000444,"TriggerCutPosition374",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000446,"TriggerCutPosition375",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000448,"TriggerCutPosition376",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000479,"TriggerCutPosition377",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000481,"TriggerCutPosition378",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000483,"TriggerCutPosition379",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000115,"TriggerCutPosition38",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000471,"TriggerCutPosition380",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000472,"TriggerCutPosition381",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000474,"TriggerCutPosition382",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000476,"TriggerCutPosition383",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000464,"TriggerCutPosition384",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000466,"TriggerCutPosition385",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000468,"TriggerCutPosition386",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000470,"TriggerCutPosition387",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000502,"TriggerCutPosition388",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000504,"TriggerCutPosition389",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000116,"TriggerCutPosition39",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000485,"TriggerCutPosition390",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000494,"TriggerCutPosition391",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000496,"TriggerCutPosition392",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000498,"TriggerCutPosition393",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000500,"TriggerCutPosition394",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000487,"TriggerCutPosition395",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000489,"TriggerCutPosition396",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000491,"TriggerCutPosition397",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000493,"TriggerCutPosition398",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000516,"TriggerCutPosition399",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000099,"TriggerCutPosition4",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000182,"TriggerCutPosition40",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000326,"TriggerCutPosition400",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000327,"TriggerCutPosition401",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000328,"TriggerCutPosition402",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000322,"TriggerCutPosition403",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000323,"TriggerCutPosition404",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000324,"TriggerCutPosition405",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000325,"TriggerCutPosition406",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000329,"TriggerCutPosition407",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000330,"TriggerCutPosition408",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000331,"TriggerCutPosition409",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000198,"TriggerCutPosition41",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000336,"TriggerCutPosition410",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000337,"TriggerCutPosition411",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000338,"TriggerCutPosition412",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000339,"TriggerCutPosition413",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000332,"TriggerCutPosition414",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000333,"TriggerCutPosition415",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000334,"TriggerCutPosition416",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000335,"TriggerCutPosition417",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000200,"TriggerCutPosition42",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000201,"TriggerCutPosition43",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000202,"TriggerCutPosition44",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000194,"TriggerCutPosition45",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000195,"TriggerCutPosition46",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000196,"TriggerCutPosition47",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000197,"TriggerCutPosition48",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000189,"TriggerCutPosition49",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000100,"TriggerCutPosition5",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000161,"TriggerCutPosition50",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000162,"TriggerCutPosition51",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000176,"TriggerCutPosition52",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000178,"TriggerCutPosition53",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000180,"TriggerCutPosition54",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000181,"TriggerCutPosition55",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000172,"TriggerCutPosition56",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000173,"TriggerCutPosition57",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000174,"TriggerCutPosition58",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000175,"TriggerCutPosition59",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000101,"TriggerCutPosition6",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000151,"TriggerCutPosition60",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000152,"TriggerCutPosition61",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000153,"TriggerCutPosition62",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000157,"TriggerCutPosition63",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000158,"TriggerCutPosition64",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000159,"TriggerCutPosition65",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000160,"TriggerCutPosition66",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000154,"TriggerCutPosition67",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000155,"TriggerCutPosition68",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000156,"TriggerCutPosition69",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000102,"TriggerCutPosition7",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000141,"TriggerCutPosition70",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000142,"TriggerCutPosition71",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000143,"TriggerCutPosition72",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000144,"TriggerCutPosition73",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000147,"TriggerCutPosition74",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000148,"TriggerCutPosition75",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000149,"TriggerCutPosition76",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000150,"TriggerCutPosition77",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000145,"TriggerCutPosition78",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000146,"TriggerCutPosition79",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000103,"TriggerCutPosition8",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000217,"TriggerCutPosition80",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000213,"TriggerCutPosition81",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000214,"TriggerCutPosition82",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000215,"TriggerCutPosition83",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000216,"TriggerCutPosition84",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000219,"TriggerCutPosition85",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000220,"TriggerCutPosition86",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000221,"TriggerCutPosition87",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000222,"TriggerCutPosition88",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000218,"TriggerCutPosition89",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000104,"TriggerCutPosition9",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000207,"TriggerCutPosition90",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000208,"TriggerCutPosition91",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000203,"TriggerCutPosition92",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000204,"TriggerCutPosition93",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000205,"TriggerCutPosition94",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000206,"TriggerCutPosition95",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000209,"TriggerCutPosition96",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000210,"TriggerCutPosition97",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000211,"TriggerCutPosition98",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+C-000212,"TriggerCutPosition99",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+S32-000115,"TriggerPosition",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000053,"Was_AIS32-0.1.3.1",false,"0",,,,,,,,false,false,"0",false,,"AIS32",,false
+C-000066,"Was_DI-0.1.4.2",false,"0",,,,,,,,false,false,"0",false,,"DI",,false
+C-000068,"Was_DI-0.1.4.3",false,"0",,,,,,,,false,false,"0",false,,"DI",,false
+SBR-001016,"Watchdog Timeout",false,"0",,,,,,,"On if the actual scan time has exceeded the limit set in the project",,,,false,,"SBR",,false
+F32-000116,"area_in",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+F32-000117,"area_mm",false,"0.0",,,,,,,,false,false,"0.0",false,,"F32",,false
+C-000092,"block",false,"0",,,,,,,,false,false,"0",false,,"C",,false
+S32-000119,"dummydint",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
+S32-000120,"timerValue",false,"0",,,,,,,,false,false,"0",false,,"S32",,false
